@@ -1,0 +1,32 @@
+2022-05-24 11:51:38.454 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:55] Starting EmployeePayrollAppApplication using Java 17.0.2 on NvN with PID 16592 (N:\STS-workspace\EmployeePayrollApp\target\classes started by NAVEEN in N:\STS-workspace\EmployeePayrollApp)
+2022-05-24 11:51:38.455 [DEBUG] [restartedMain] [c.b.e.EmployeePayrollAppApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-24 11:51:38.455 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:640] The following 1 profile is active: "prod"
+2022-05-24 11:51:39.038 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:55] Starting EmployeePayrollAppApplication using Java 17.0.2 on NvN with PID 1784 (N:\STS-workspace\EmployeePayrollApp\target\classes started by NAVEEN in N:\STS-workspace\EmployeePayrollApp)
+2022-05-24 11:51:39.039 [DEBUG] [restartedMain] [c.b.e.EmployeePayrollAppApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-24 11:51:39.039 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:640] The following 1 profile is active: "prod"
+2022-05-24 11:51:39.187 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-24 11:51:39.238 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:61] Started EmployeePayrollAppApplication in 0.222 seconds (JVM running for 63.822)
+2022-05-24 11:51:39.239 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:15] Employee Payroll App started in PROD environment
+2022-05-24 11:51:39.571 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-24 11:51:39.708 [WARN] [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:61] Unable to start LiveReload server
+2022-05-24 11:51:39.717 [WARN] [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-05-24 11:51:39.738 [ERROR] [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-05-24 11:51:48.385 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:55] Starting EmployeePayrollAppApplication using Java 17.0.2 on NvN with PID 18844 (N:\STS-workspace\EmployeePayrollApp\target\classes started by NAVEEN in N:\STS-workspace\EmployeePayrollApp)
+2022-05-24 11:51:48.386 [DEBUG] [restartedMain] [c.b.e.EmployeePayrollAppApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-24 11:51:48.386 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:640] The following 1 profile is active: "prod"
+2022-05-24 11:51:49.459 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-24 11:51:49.622 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:61] Started EmployeePayrollAppApplication in 1.435 seconds (JVM running for 1.821)
+2022-05-24 11:51:49.624 [INFO] [restartedMain] [c.b.e.EmployeePayrollAppApplication:15] Employee Payroll App started in PROD environment
