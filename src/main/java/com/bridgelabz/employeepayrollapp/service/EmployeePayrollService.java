@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import lombok.extern.slf4j.*;
+//import lombok.extern.slf4j.*;
 
 import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
 import com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollCustomException;
@@ -38,7 +38,7 @@ public class EmployeePayrollService implements IEmployeePayrollService{
         EmployeePayrollData employeePayrollData = null;
         employeePayrollData = new EmployeePayrollData(employeePayrollDTO);
         employeePayrollDataList.add(employeePayrollData);
-        log.debug("Employee data : " + employeePayrollData.toString());
+//        log.debug("Employee data : " + employeePayrollData.toString());
         return employeePayrollRepository.save(employeePayrollData);
     }
 
