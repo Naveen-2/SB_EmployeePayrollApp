@@ -7,9 +7,11 @@ import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
 import com.bridgelabz.employeepayrollapp.model.EmployeePayrollData;
 
 public interface IEmployeePayrollService {
- 	List<EmployeePayrollData> getEmployeePayrollData();
+	List<EmployeePayrollData> getEmployeePayrollData();
 
     EmployeePayrollData getEmployeePayrollDataById(int employeeId);
+
+    List<EmployeePayrollData> getEmployeeByDepartment(String department);
 
     EmployeePayrollData createEmployeePayrollData(EmployeePayrollDTO employeePayrollDTO);
 
